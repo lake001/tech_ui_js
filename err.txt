@@ -1,0 +1,25 @@
+[21:48:51] Using gulpfile /home/dz/src/js/gulpfile.js
+[21:48:51] Starting 'clean'...
+[21:48:51] Finished 'clean' after 20 ms
+[21:48:51] Starting 'serve'...
+[21:48:51] Starting 'scripts'...
+[21:48:51] Finished 'scripts' after 27 ms
+[21:48:51] Starting 'style'...
+[21:48:51] Finished 'style' after 4.57 ms
+[21:48:51] Starting 'image'...
+[21:48:51] Finished 'image' after 6.84 ms
+[21:48:51] Starting 'html'...
+[21:48:51] Finished 'html' after 5.66 ms
+[21:48:51] Finished 'serve' after 104 ms
+[21:48:51] Starting 'default'...
+[21:48:51] Finished 'default' after 85 μs
+[21:48:51] gulp-imagemin: Minified 0 images
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:2016
+    External: http://192.168.1.11:2016
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.11:3001
+ -------------------------------------
+[Browsersync] Serving files from: dist

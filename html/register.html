@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>simple</title>
+		<link rel="stylesheet" href="/style/index.css" tyle="text/css" />
+	</head>
+	<body>
+		<form method="post" action="">
+			about:<textarea name="" rows="4" cos="18" id="about"></textarea><br /><br />
+			account:<input type="text" name="" id="userid" /> <br /><br />
+			password:<input type="password" name="" id="userpwd" /> <br /><br />
+			again:<input type="password" name="" id="userpwd2" /> <br /><br />
+			<input type="submit" value="register" onclick="return eg.regCheck();" />
+			<input type="button" name="" id="regUnlock" onclick="eg.unlock()" style="" />
+		</form>
+	<script>
+		var eg={};
+		eg.$ = function(id) {
+			return document.getElementById(id);
+		};
+
+		eg.regCheck = function() {
+			var uid = eg.$("userid");
+			var upwd = eg.$("userpwd");
+			var upwd2 = eg.$("userpwd2");
+
+			if (uid.value == '') {
+				alert('account is null!');
+				return false;
+			}
+			if (upwd.value == '') {
+				alert('password is null!');
+				return false;
+			}
+			if (upwd.value != upwd2.value) {
+				alert('password different!');
+				return false;
+			}
+			return true;
+		};
+	</script>
+	</body>
+</html>
+

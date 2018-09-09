@@ -1,0 +1,29 @@
+#imageContainer {
+		position:relative;
+		margin:auto;
+		width:500px;
+		border:1px solid #000;
+}
+
+/* styles unrelated to the application follow */
+h1 {
+		position: relative;
+		font:lem verdana;
+}
+
+.copy {
+		width:500px;
+		margin:auto;
+		position:relatve;
+		font:0.9em verdana;
+}
+
+#so_credits {
+		position:relative;
+		margin:25px auto 0px auto;
+		font:0.7em verdana;
+		border-top:1px solid #000;
+		border-bottom:1px solid #000;
+		height:90px;
+		padding-top:4px;
+}
